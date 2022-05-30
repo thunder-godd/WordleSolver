@@ -1,9 +1,10 @@
 from flask import Flask, jsonify,  request
 from flask_restful import Resource, Api
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from solver import  form_pattern, solver
 # creating the flask app
 app = Flask(__name__)
+app.config["CORS_SUPPORTS_CREDENTIALS"]=True
 CORS(app)
 # creating an API object
 api = Api(app)
