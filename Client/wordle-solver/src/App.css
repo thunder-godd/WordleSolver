@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	color: lightgrey;
+}
+body {
+	background-color: rgba(17, 17, 17, 0.918);
+	margin: 0;
+}
+.container-fluid {
+	margin: 0;
+	padding: 0.5rem;
+	background-color: rgba(17, 17, 17, 0.918);
+	height: 100vh;
+}
+.navbar {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	background: #000304;
+}
+.logo {
+	font-family: cursive;
+}
+.col-sm {
+	background: rgba(86, 59, 104, 0.692);
+	background: linear-gradient(
+		90deg,
+		rgb(88, 59, 107) 12%,
+		rgba(245, 112, 53, 0.48011363636363635) 92%,
+		rgba(252, 176, 69, 0.7585227272727273) 100%
+	);
+
+	padding: 3px;
+	margin-left: 0.5rem;
+	margin-bottom: 1rem;
+}
+.card {
+	background-color: rgb(0, 0, 0);
+	padding: 1rem;
+	min-height: 75vh;
+}
+.form-control {
+	background: rgba(17, 17, 17, 0.918);
+}
+input:focus {
+	background: rgba(17, 17, 17, 0.918);
+}
+.placed {
+	margin-bottom: 1rem;
+}
+#output {
+	text-align: center;
+}
+.title {
+	border-bottom: 2px solid purple;
+}
+.words {
+	border: 0.5px solid grey;
+	border-radius: 2.5%;
+}
+.word {
+	margin: 1rem;
+}
+.letter {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background: green;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 1px;
+}
+/* .btn {
+	background: rgba(245, 112, 53, 1);
+	color: lightgrey;
+} */
